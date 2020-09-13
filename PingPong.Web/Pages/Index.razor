@@ -1,7 +1,82 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+<div class="container body-content">
 
-Welcome to your new app!
+    <div ng-controller="homeController" class="ng-scope">
+        <div class="jumbotron">
+            <h1>
+            </h1>
+            <img width="150" src="./CatchMe Mobile Application_files/fullpicture.png">
+            <p class="lead">
+                CatchMe is a location-sharing app that makes it easy to coordinate meeting up with friends and family
+            </p>
+            <!-- ngIf: (isIPad || isIPhone) && isMobile -->
+            <!-- ngIf: isAndroid && isMobile -->
+            <!-- ngIf: isWindowsPhone && isMobile -->
+            <!-- ngIf: isDebug -->
+        </div>
+        <!-- ngIf: isMobile -->
+        <!-- ngIf: isMobile == false --><!-- ngIf: isMobile == false --><div class="row ng-scope" ng-if="isMobile == false">
+            <div class="col-md-4">
+                <a href="https://itunes.apple.com/us/app/catch-me-app/id959676006?ls=1&amp;mt=8">
+                    <img src="./CatchMe Mobile Application_files/app-store-badge_.png">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://play.google.com/store/apps/details?id=com.rdn.catchme">
+                    <img src="./CatchMe Mobile Application_files/en_app_rgb_wo_60.png">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="http://www.windowsphone.com/s?appid=1fdbdc92-6496-4341-ba05-8762a3275f6b">
+                    <img src="./CatchMe Mobile Application_files/258x67_WP_Store_blk.png">
+                </a>
+            </div>
+        </div><!-- end ngIf: isMobile == false --><!-- end ngIf: isMobile == false -->
+        <hr>
+        <div class="jumbotron">
+            <div>
+                <a href="http://www.catchme.info/Home/About">
+                    <img src="./CatchMe Mobile Application_files/mobile-application.png">
+                </a>
+            </div>
+            <p class="lead">
+                This app is available for all mobile platforms tablets and IPad's
+            </p>
+        </div>
+        <hr>
+        <div class="jumbotron">
+            <div>
+                <a href="http://www.catchme.info/Home/About">
+                    <img width="160" src="./CatchMe Mobile Application_files/catchme_friends.png">
+                </a>
+            </div>
+            <p class="lead">
+                You can connect with a friend and share your position on a map or you can send your position by email with one click.
+            </p>
+        </div>
+        <hr>
+        <div class="jumbotron">
+            <div>
+                <img src="./CatchMe Mobile Application_files/table_tennis_2.png">
+            </div>
+            <p class="lead">
+                You can send a Ping to a friend and receive back a Pong. It's a funny way to stay in touch :)
+            </p>
+        </div>
+        <hr>
+        <div class="jumbotron">
+            <div>
+                <iframe width="300" height="200" src="./CatchMe Mobile Application_files/UwBE74MPvmo.html" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+            <p class="lead">
+                Basic Usage video
+            </p>
+        </div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    </div>
+    <hr>
+    <footer>
+        <p>© 2016 - CatchMe App - RDN Software</p>
+    </footer>
+</div>
