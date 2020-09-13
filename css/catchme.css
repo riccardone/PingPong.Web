@@ -267,8 +267,8 @@ td, th {
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(http://www.catchme.info/Content/../fonts/glyphicons-halflings-regular.eot);
-    src: url(http://www.catchme.info/Content/../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(http://www.catchme.info/Content/../fonts/glyphicons-halflings-regular.woff) format('woff'),url(http://www.catchme.info/Content/../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(http://www.catchme.info/Content/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(../assets/fonts/glyphicons-halflings-regular.eot);
+    src: url(../assets/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../assets/fonts/glyphicons-halflings-regular.woff) format('woff'),url(../assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
