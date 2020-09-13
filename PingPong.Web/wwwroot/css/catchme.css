@@ -6899,7 +6899,7 @@ input, select, textarea {
 }
 
 .navbar-brand {
-    background-image: url('http://www.catchme.info/Content/Images/catchme_logo_50_transparent.png');
+    background-image: url('../assets/images/catchme_logo_50_transparent.png');
     background-size: 50px;
     background-repeat: no-repeat;
     vertical-align: middle;
