@@ -12,6 +12,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block
 }
 
+#navbarSupportedContent {
+    text-align: center;
+    font-size:2.0em;
+}
+
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
@@ -3912,9 +3917,13 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
         max-width: none
     }
 
-.nav-tabs {
-    border-bottom: 1px solid #ddd
-}
+    .nav > li {
+        margin: 0 0 5px 0;
+    }
+
+    .nav-tabs {
+        border-bottom: 1px solid #ddd
+    }
 
     .nav-tabs > li {
         float: left;
@@ -4205,7 +4214,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     float: left;
     height: 50px;
     padding: 15px 15px;
-    font-size: 18px;
+    font-size: 2.5em;
     line-height: 20px
 }
 
